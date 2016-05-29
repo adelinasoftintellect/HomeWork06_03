@@ -1,5 +1,21 @@
 
 class Meat extends Stock {
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public int getKilos() {
+		return kilos;
+	}
+
+	public void setKilos(int kilos) {
+		this.kilos = kilos;
+	}
+
 	String type;
 	int kilos;
 

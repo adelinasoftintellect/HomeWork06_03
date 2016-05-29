@@ -6,7 +6,7 @@ class Stock {
 	}
 
 	private float price;
-	boolean availability;
+	private boolean availability;
 
 	public Stock(float price, boolean availability) {
 		super();

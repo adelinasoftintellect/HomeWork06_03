@@ -1,6 +1,22 @@
 
 class Drinks extends Stock {
 
+	public boolean isCold() {
+		return cold;
+	}
+
+	public void setCold(boolean cold) {
+		this.cold = cold;
+	}
+
+	public boolean isHot() {
+		return hot;
+	}
+
+	public void setHot(boolean hot) {
+		this.hot = hot;
+	}
+
 	boolean cold;
 	boolean hot;
 

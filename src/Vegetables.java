@@ -1,5 +1,21 @@
 
 class Vegetables extends Stock {
+	public boolean isFresh() {
+		return fresh;
+	}
+
+	public void setFresh(boolean fresh) {
+		this.fresh = fresh;
+	}
+
+	public boolean isCanned() {
+		return canned;
+	}
+
+	public void setCanned(boolean canned) {
+		this.canned = canned;
+	}
+
 	boolean fresh;
 	boolean canned;
 

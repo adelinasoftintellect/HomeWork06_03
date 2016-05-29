@@ -1,5 +1,21 @@
 
 class Fruits extends Stock {
+	public boolean isSweet() {
+		return sweet;
+	}
+
+	public void setSweet(boolean sweet) {
+		this.sweet = sweet;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
 	boolean sweet;
 	String color;
 

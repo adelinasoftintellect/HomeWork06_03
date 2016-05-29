@@ -1,7 +1,23 @@
 
 class Desserts extends Stock {
-	boolean cream;
-	boolean cake;
+	private boolean cream;
+	private boolean cake;
+
+	public boolean isCream() {
+		return cream;
+	}
+
+	public void setCream(boolean cream) {
+		this.cream = cream;
+	}
+
+	public boolean isCake() {
+		return cake;
+	}
+
+	public void setCake(boolean cake) {
+		this.cake = cake;
+	}
 
 	public Desserts(float price, boolean availability, boolean cream, boolean cake) {
 		super(price, availability);
